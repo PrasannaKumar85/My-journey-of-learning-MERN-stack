@@ -1,0 +1,85 @@
+.project-card {
+  width: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #171f46;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.project-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.project-duration {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 5px;
+  color: #171f46;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.project-calendar-icon {
+  font-size: 16px;
+}
+
+.project-description {
+  color: #1e293b;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 14px 0;
+}
+
+.project-visit-link {
+  display: inline-block;
+  color: #0967d2;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-visit-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .project-card {
+    padding: 20px;
+  }
+
+  .project-image {
+    max-height: 280px;
+  }
+
+  .project-title {
+    font-size: 22px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+
+  .project-duration {
+    font-size: 14px;
+  }
+}
